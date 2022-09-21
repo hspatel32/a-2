@@ -36,7 +36,7 @@ app.get("/blog", function(req,res){
 });
 
 app.get("/post", function(req,res){
-    data.getPublisgedPosts().then((data)=>{
+    data.getPublishedPosts().then((data)=>{
 res.json(data);
     });
 });
