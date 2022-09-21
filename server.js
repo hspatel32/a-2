@@ -43,7 +43,7 @@ res.json(data);
 
 app.get("/categories", (req,res)=>{
     data.getCategories().then((data)=>{
-        res.jason(data);
+        res.json(data);
     });
 });
 
