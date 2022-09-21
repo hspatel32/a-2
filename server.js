@@ -30,7 +30,7 @@ app.get("/about", function(req,res){
 });
 
 app.get("/blog", function(req,res){
-    data.getAllPost().then((data)=>{
+    data.getAllPosts().then((data)=>{
         res.json(data);
     });
 });
