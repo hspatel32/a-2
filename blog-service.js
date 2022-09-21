@@ -39,7 +39,7 @@ module.exports.getPublishedPosts = function(){
         let filtPost = [];
         for(let i=0;i< posts.length;i++){
             if(posts[i].published == true){
-                filtPost.pust(posts[i]);
+                filtPost.push(posts[i]);
             }
         }
         if(filtPost.length == 0){
